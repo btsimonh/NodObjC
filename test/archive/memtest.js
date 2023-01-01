@@ -5,7 +5,7 @@ if(process.version.indexOf('0.6') == -1 && process.version.indexOf('0.8') == -1)
 {
   var $ = require('../');
   var assert = require('assert');
-  var memwatch = require('memwatch-next');
+  var memwatch = require('@airbnb/node-memwatch');
 
   $.import('Foundation', 0);
   $.import('Cocoa', 0);

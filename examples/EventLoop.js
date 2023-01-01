@@ -122,4 +122,3 @@ EventLoop.prototype.eventLoopCore = function(block) {
   this.emit('eventLoop', runInfo)
   return this
 }
-
