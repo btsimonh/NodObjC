@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "debug": "*",
-    "ffi-napi": "https://github.com/btsimonh/node-ffi-napi.git#patchnode182022",
+    "ffi-napi": "https://github.com/btsimonh/node-ffi-napi.git#patchtonode182022",
     "function-class": "^1.0.0",
     "ref-napi": "^3.0.3",
     "ref-struct-di": "^1.1.1",
