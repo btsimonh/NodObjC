@@ -29,9 +29,9 @@
   },
   "dependencies": {
     "debug": "*",
-    "ffi-napi": "^4.0.3",
+    "ffi-napi": "https://github.com/btsimonh/node-ffi-napi.git#patchnode182022",
     "ref-napi": "^3.0.3",
-    "ref-struct-napi": "^1.1.1",
+    "ref-struct-di": "^1.1.1",
     "setprototypeof": "^1.0.0"
   },
   "devDependencies": {
