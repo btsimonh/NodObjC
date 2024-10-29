@@ -30,7 +30,7 @@
   "dependencies": {
     "debug": "*",
     "ffi-napi": "https://github.com/btsimonh/node-ffi-napi.git#patchtonode182022",
-    "ref-napi": "^3.0.3",
+    "ref-napi": "https://github.com/btsimonh/node-ref-napi.git#arraybuffersize",
     "ref-struct-di": "^1.1.1",
     "setprototypeof": "^1.0.0"
   },
