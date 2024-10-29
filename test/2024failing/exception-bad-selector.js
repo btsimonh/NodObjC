@@ -1,4 +1,4 @@
-var $ = require('../')
+var $ = require('../../lib')
   , fs = require('fs')
   , assert = require('assert')
 

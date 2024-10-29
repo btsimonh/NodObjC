@@ -1,4 +1,4 @@
-var $ = require('../');
+var $ = require('../../lib');
 var assert = require('assert');
 
 $.framework('Foundation');

@@ -1,4 +1,4 @@
-var $ = require('../')
+var $ = require('../../lib')
   , assert = require('assert')
 
 $.import('Foundation')

@@ -1,4 +1,4 @@
-var $ = require('./archive/oldimport');
+var $ = require('../archive/oldimport');
 var memwatch = require('@airbnb/node-memwatch');
 var hd = new memwatch.HeapDiff();
 var hrstart = ( process.hrtime ? process.hrtime() : Date.now() )

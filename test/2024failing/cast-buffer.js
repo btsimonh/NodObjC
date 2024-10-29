@@ -3,7 +3,7 @@
  * Test that the Node.js Buffer -> NSData casting works.
  */
 
-var $ = require('../');
+var $ = require('../../lib');
 var assert = require('assert');
 
 $.framework('Foundation');

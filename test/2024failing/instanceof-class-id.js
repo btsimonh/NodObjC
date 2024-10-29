@@ -1,7 +1,7 @@
-var $ = require('../');
-var ID = require('../lib/id');
-var Class = require('../lib/class');
-var Exception = require('../lib/exception');
+var $ = require('../../lib');
+var ID = require('../../lib/id');
+var Class = require('../../lib/class');
+var Exception = require('../../lib/exception');
 var assert = require('assert');
 
 $.framework('Foundation');

@@ -2,8 +2,8 @@
 //   https://github.com/TooTallNate/NodObjC/issues/42
 
 var assert = require('assert');
-var $ = require('../');
-var core = require('../lib/core.js');
+var $ = require('../../lib/index.js');
+var core = require('../../lib/core.js');
 
 $.import('Foundation');
 

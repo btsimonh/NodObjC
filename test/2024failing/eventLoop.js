@@ -1,6 +1,6 @@
 // Test inspired by ./nstimer.js, but using node-friendly deconstructed event loop
 
-var $ = require('../')
+var $ = require('../../lib')
   , assert = require('assert')
   , util = require('util')
   , events = require('events')

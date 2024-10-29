@@ -1,7 +1,7 @@
 // Unit test for:
 // https://github.com/TooTallNate/NodObjC/issues/36
 
-var $ = require('../');
+var $ = require('../../lib');
 var assert= require('assert');
 
 $.framework('Cocoa')
