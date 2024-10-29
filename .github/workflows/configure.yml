@@ -8,12 +8,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix: # macos-latest -> arm64, macos-13 -> x64
-        #os: [windows-latest, ubuntu-latest, macos-latest, macos-13]
-        #os: [macos-13, macos-latest]
-        os: [macos-latest]
-        # < 16 not available in testing images
-        #node-version: [22, 20, 18]
-        node-version: [22]
+        os: [macos-13, macos-latest, windows-latest]
+        node-version: [22, 20, 18]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4

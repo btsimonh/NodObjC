@@ -29,8 +29,8 @@
   },
   "dependencies": {
     "debug": "*",
-    "ffi-napi": "https://github.com/btsimonh/node-ffi-napi.git#patchtonode182022",
-    "ref-napi": "https://github.com/btsimonh/ref-napi.git#arraybuffersize",
+    "ffi-napi": "https://github.com/btsimonh/node-ffi-napi.git",
+    "ref-napi": "https://github.com/btsimonh/ref-napi.git",
     "ref-struct-di": "^1.1.1",
     "setprototypeof": "^1.0.0"
   },
