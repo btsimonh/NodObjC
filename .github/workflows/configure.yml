@@ -12,8 +12,8 @@ jobs:
         #os: [macos-13, macos-latest]
         os: [macos-latest]
         # < 16 not available in testing images
-        node-version: [22, 20, 18]
-        #node-version: [22]
+        #node-version: [22, 20, 18]
+        node-version: [22]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
